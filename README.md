@@ -37,6 +37,7 @@ python scanner.py
 ```
 
 🧭 How to Use
+---
 • Enter target IP or hostname
   Example: 127.0.0.1 or google.com
 • Enter port range
@@ -46,9 +47,8 @@ python scanner.py
 • Save results if needed
 
 🔎 Scan Output
-
+---
 The scanner shows:
-
 • Port number
 • Service name (if available)
 • Port status (Open / Closed)
@@ -73,27 +73,28 @@ The scanner shows:
 | 8080 | HTTP Alternate |
 
 📁 Project Structure
-
+---
+```
 Network_Port_Scanner_GUI/
 ├── scanner.py
 └── README.md
+```
 
 ⚙️ Performance Tips
+---
 • Use 50–200 threads for faster scans
 • Increase timeout for slow networks
 • Scan smaller port ranges for quick results
 
 ⚠️ Disclaimer
-
+---
 This tool is for educational purposes only.
-
 Do NOT scan systems, networks, or devices without proper permission.
 Unauthorized scanning may be illegal.
 
 👨‍💻 About
-
+---
 This project helps you learn:
-
 • Python socket programming
 • Multi-threading
 • Network scanning basics
